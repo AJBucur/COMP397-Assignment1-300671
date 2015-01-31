@@ -73,3 +73,16 @@ div.menu {
     padding-top: 25px;
     text-align: center;
 }
+
+#intro::after {
+    content: "";
+    background-image: url('../images/crashed_spaceship.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    font-weight: 200;
+}

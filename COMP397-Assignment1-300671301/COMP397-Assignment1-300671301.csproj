@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
+    <Content Include="images\crashed_spaceship.jpg" />
     <Content Include="index.html" />
     <Content Include="js\impress.js" />
     <Content Include="Web.config" />
