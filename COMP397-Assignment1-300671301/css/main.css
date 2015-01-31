@@ -84,6 +84,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #canyon::after {
@@ -96,7 +98,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #buildings::after {
@@ -109,6 +112,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #wall::after {
@@ -121,6 +126,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #narrowpath::after {
@@ -133,6 +140,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #research::after {
@@ -145,6 +154,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #warehouse::after {
@@ -157,6 +168,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cave::after {
@@ -169,6 +182,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #higher::after {
@@ -181,6 +196,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slitpath::after {
@@ -193,6 +210,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #lightpath::after {
@@ -205,6 +224,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #materials::after {
@@ -217,6 +238,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #biolab::after {
@@ -229,6 +252,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #armory::after {
@@ -241,6 +266,8 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #structs::after {
@@ -253,4 +280,6 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
