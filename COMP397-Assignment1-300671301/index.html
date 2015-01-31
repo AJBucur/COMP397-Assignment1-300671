@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Dragon!</title>
+    <title>Space Quest!</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
@@ -26,7 +26,6 @@
                     A canyon wall opens up at the south.
                 </p>
                 <p>Where do you go?</p>
-
                 <p>
                     <a href="#buildings">Walk towards the buildings</a>
                     or
@@ -35,6 +34,45 @@
             </div>
         </div>
        
+        <!-- 2nd Decision Level -->
+        <div id="canyon" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You arrive at the canyon.</p>
+                <p>
+                    There's a a narrow path that leads deeper into the
+                    bottom of the canyon. The rock wall is pocketed and
+                    is composed of a sturdy rock substrate. You could
+                    look from higher ground to survey the landscape.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#wall">Climb the canyon wall</a>
+                <br /><br />or<br /><br />
+                <a href="#narrowpath">Continue along the narrow path</a>
+            </div>
+        </div>
+
+        <div id="buildings" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You arrive at what looks to be a human settlement</p>
+                <p>
+                    Derelict solar arrays and minerals pumps are all strewn
+                    across the area. This village was probably a seeding colony
+                    from long ago.
+                </p>
+                <p>
+                    The surrounding homes all look weathered. At the center,
+                    there are two large, three-storied buildings. They both read in
+                    Old Terran, Research Lab and Warehouse.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#research">Enter Research Lab</a>
+                <br /><br />or<br /><br />
+                <a href="#warehouse">Enter Warehouse</a>
+            </div>
+        </div>
+
 
     </div>
 
