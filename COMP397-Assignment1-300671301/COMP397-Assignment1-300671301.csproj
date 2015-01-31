@@ -59,7 +59,21 @@
   <ItemGroup>
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
+    <Content Include="images\armory.jpg" />
+    <Content Include="images\bio_lab.jpg" />
+    <Content Include="images\buildings.jpg" />
+    <Content Include="images\canyon.jpg" />
+    <Content Include="images\cave.JPG" />
     <Content Include="images\crashed_spaceship.jpg" />
+    <Content Include="images\higher_wall.jpg" />
+    <Content Include="images\light_path.jpg" />
+    <Content Include="images\materials_lab.jpg" />
+    <Content Include="images\narrow_path.jpg" />
+    <Content Include="images\research_lab.jpg" />
+    <Content Include="images\slit_path.jpg" />
+    <Content Include="images\structs.png" />
+    <Content Include="images\wall.jpg" />
+    <Content Include="images\warehouse.jpg" />
     <Content Include="index.html" />
     <Content Include="js\impress.js" />
     <Content Include="Web.config" />

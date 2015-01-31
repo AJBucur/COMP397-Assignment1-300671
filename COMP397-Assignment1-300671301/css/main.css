@@ -84,5 +84,173 @@ div.menu {
     right: 0;
     position: absolute;
     z-index: -1;
-    font-weight: 200;
+}
+
+#canyon::after {
+    content: "";
+    background-image: url('../images/canyon.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: contain;
+}
+
+#buildings::after {
+    content: "";
+    background-image: url('../images/buildings.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#wall::after {
+    content: "";
+    background-image: url('../images/wall.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#narrowpath::after {
+    content: "";
+    background-image: url('../images/narrow_path.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#research::after {
+    content: "";
+    background-image: url('../images/research_lab.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#warehouse::after {
+    content: "";
+    background-image: url('../images/warehouse.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#cave::after {
+    content: "";
+    background-image: url('../images/cave.JPG');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#higher::after {
+    content: "";
+    background-image: url('../images/higher_wall.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#slitpath::after {
+    content: "";
+    background-image: url('../images/slit_path.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#lightpath::after {
+    content: "";
+    background-image: url('../images/light_path.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#materials::after {
+    content: "";
+    background-image: url('../images/materials_lab.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#biolab::after {
+    content: "";
+    background-image: url('../images/bio_lab.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#armory::after {
+    content: "";
+    background-image: url('../images/armory.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#structs::after {
+    content: "";
+    background-image: url('../images/structs.png');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
