@@ -5,6 +5,8 @@
     <title>Space Quest!</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
+
+    <!-- Filename:  -->
 </head>
 <body>
     <div id="impress">
@@ -152,6 +154,7 @@
         </div>
 
         <!-- Consequences Level -->
+        <!-- Wall Consequences -->
         <div id="cave" class="step slide" data-x="4500">
             <div class="slide-text">
                 <p>You walk to the cave. It looks pitch black deep inside</p>
@@ -180,11 +183,55 @@
             </div>
         </div>
 
+        <!-- Wall Consequences -->
+        <div id="slitpath" class="step slide" data-x="1500" data-y="3000">
+            <div class="slide-text">
+                <p>
+                    You force your body through the small slit. The rock
+                    formations contort your body at odd angles, but you keep
+                    going.
+                </p>
+                <p>
+                    A light emerges from around the corner. You follow it and you end
+                    in a small oasis. On the further side of the bank, you find a
+                    derelict spaceship. You rummage inside the command console and find
+                    a dated communication module. This should work with our ship!
+                </p>
+                <p>
+                    You find a path leading up to the plateau. You walk back to the desert,
+                    install the module, and send out a distress beacon.
+                </p>
+                <p>Three days later, a merchant ships heeds your call and rescues you.</p>
+                <p>CONGRATULATIONS!!! You've won Space Quest!</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Try your luck again?</a>
+            </div>
+        </div>
+
+        <div id="lightpath" class="step slide" data-x="3000" data-y="1500">
+            <div class="slide-text">
+                <p>
+                    Walking towards the light source, you hear some
+                    rocks grumbling.
+                </p>
+                <p>You sprint for the exit, avoiding falling rocks.</p>
+                <p>
+                    As you see a clear outside, the floor falls beneath you.
+                    You stumble down to your death in a dark chasm.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#intro">Try your luck again?</a>
+            </div>
+        </div>
+
     </div>
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
+
 
 </body>
 </html>
